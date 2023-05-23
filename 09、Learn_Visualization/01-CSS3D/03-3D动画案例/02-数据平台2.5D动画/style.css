@@ -3,7 +3,7 @@
     transform: translateY(0);
   }
 
-  50%{
+  50% {
     transform: translateY(20px);
   }
 
@@ -12,196 +12,215 @@
   }
 }
 
-
-@keyframes guangA{
+@keyframes guangA {
   0% {
     opacity: 1;
     transform: translate(0, 0);
   }
-  50%{
+  50% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
     transform: translate(-55px, -34px);
   }
 }
 
-@keyframes guangB{
+@keyframes guangB {
   0% {
     opacity: 1;
     transform: translate(0, 0);
   }
-  50%{
+  50% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
     transform: translate(60px, 33px);
   }
 }
 
-@keyframes tuC{
-  0%{
+@keyframes tuC {
+  0% {
     opacity: 0;
-    transform: translate(0,0);
+    transform: translate(0, 0);
   }
- 
-  40%{
+
+  40% {
     opacity: 1;
   }
   90%,
-  100%{
+  100% {
     opacity: 1;
     transform: translate(40px, 20px);
   }
 }
 
-@keyframes lingxA{
-  0%{
+@keyframes lingxA {
+  0% {
     opacity: 1;
     transform: translateY(-8px);
   }
   60% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
     transform: translateY(-60px);
   }
 }
 
-@keyframes lingxB{
-  0%{
+@keyframes lingxB {
+  0% {
     opacity: 1;
     transform: translateY(-8px);
   }
-  
-  40%{
+
+  40% {
     opacity: 1;
   }
 
-  90%,100%{
+  90%,
+  100% {
     opacity: 0;
     transform: translateY(-60px);
   }
 }
 
-@keyframes lingxC{
-  0%{
+@keyframes lingxC {
+  0% {
     opacity: 1;
     transform: translateY(-8px);
   }
-  
-  50%{
+
+  50% {
     opacity: 1;
   }
 
-  50%,100%{
+  50%,
+  100% {
     opacity: 0;
     transform: translateY(-50px);
   }
 }
 
-@keyframes chaunB{
-  0%{
+@keyframes chaunB {
+  0% {
     opacity: 1;
     transform: translateY(0px);
   }
-  
 
-  100%{
+  100% {
     opacity: 0;
     transform: translateY(-70px);
   }
 }
 
-@keyframes chaunC{
-  0%{
+@keyframes chaunC {
+  0% {
     opacity: 1;
     transform: translateY(0px);
   }
 
-  100%{
+  100% {
     opacity: 0;
     transform: translateY(-40px);
   }
 }
 
-@keyframes tuA{
-  0%{
+@keyframes tuA {
+  0% {
     opacity: 1;
     transform: translateY(0px);
   }
- 
-  60%{
+
+  60% {
     opacity: 1;
   }
 
-  100%{
+  100% {
     opacity: 0;
     transform: translateY(-120px);
   }
 }
 
-@keyframes tuAa{
-  0%, 30%{
+@keyframes tuAa {
+  0%,
+  30% {
     opacity: 1;
     transform: translateY(0px);
   }
-  60%{
+  60% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
     transform: translateY(-60px);
   }
 }
 
-@keyframes ziA{
-  0%, 20%, 40%, 60%, 80% {
+@keyframes ziA {
+  0%,
+  20%,
+  40%,
+  60%,
+  80% {
     transform: translateY(0);
   }
-  10%, 50% {
-      transform: translateY(-4px);
+  10%,
+  50% {
+    transform: translateY(-4px);
   }
-  30%, 70% {
-      transform: translateY(4px);
+  30%,
+  70% {
+    transform: translateY(4px);
   }
 }
 
-@keyframes ziB{
-  0%, 20%, 40%, 60%, 80% {
+@keyframes ziB {
+  0%,
+  20%,
+  40%,
+  60%,
+  80% {
     transform: translateY(0);
   }
-  10%, 50% {
-      transform: translateY(3px);
+  10%,
+  50% {
+    transform: translateY(3px);
   }
-  30%, 70% {
-      transform: translateY(-3px);
+  30%,
+  70% {
+    transform: translateY(-3px);
   }
 }
 
-@keyframes ziC{
-  0%, 20%, 40%, 60%, 80% {
+@keyframes ziC {
+  0%,
+  20%,
+  40%,
+  60%,
+  80% {
     transform: translateY(0);
   }
-  10%, 50% {
-      transform: translateY(-2px);
+  10%,
+  50% {
+    transform: translateY(-2px);
   }
-  30%, 70% {
-      transform: translateY(3px);
+  30%,
+  70% {
+    transform: translateY(3px);
   }
 }
 
-@keyframes tuMing{
-  0%{
+@keyframes tuMing {
+  0% {
     opacity: 0;
   }
-  50%{
+  50% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
   }
 }
