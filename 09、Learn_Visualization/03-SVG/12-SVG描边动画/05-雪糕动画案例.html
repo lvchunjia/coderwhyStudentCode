@@ -11,18 +11,17 @@
       .inside-l,
       .drop,
       .stick,
-      .outline{
+      .outline {
         animation: lineMove 2s linear forwards;
       }
-      .outline{
+      .outline {
         /* 虚线  1019 */
         stroke-dasharray: 1020px;
         /* 不可见 */
         stroke-dashoffset: 1020px;
-        
       }
 
-      .stick{
+      .stick {
         /* 这里本来是给 252px就行了,但是我们给800, 想加速 */
         stroke-dasharray: 800px;
         /* 不可见 */
@@ -31,29 +30,28 @@
         animation-delay: 1.75s;
       }
 
-      .drop{
+      .drop {
         stroke-dasharray: 200px;
         stroke-dashoffset: 200px;
         /* animation: lineMove 2s linear forwards; */
         animation-delay: 2.5s;
       }
 
-      .inside-l{
+      .inside-l {
         stroke-dasharray: 800px;
         stroke-dashoffset: 800px;
         /* animation: lineMove 2s linear forwards; */
         animation-delay: 1s;
       }
 
-      
-      .inside-r{
+      .inside-r {
         stroke-dasharray: 700px;
         stroke-dashoffset: 700px;
         /* animation: lineMove 2s linear forwards; */
       }
 
-      @keyframes lineMove{
-        100%{
+      @keyframes lineMove {
+        100% {
           /* 可见 */
           stroke-dashoffset: 0px;
         }

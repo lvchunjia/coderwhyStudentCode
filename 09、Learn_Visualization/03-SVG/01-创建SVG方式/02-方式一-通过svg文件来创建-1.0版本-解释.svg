@@ -5,7 +5,6 @@
  baseProfile="full" 正确渲染svg内容时所需要最小SVG语言概述(版本); full:正常的svg语言概述  basic:基本SVG语言概述  tiny: 轻量级SVG语言概述
 
  xmlns: 指定svg元素  和 svg内的子元素都是属于 http://www.w3.org/2000/svg 这个命名空间下
- 
  -->
 <svg
  version="1.0"

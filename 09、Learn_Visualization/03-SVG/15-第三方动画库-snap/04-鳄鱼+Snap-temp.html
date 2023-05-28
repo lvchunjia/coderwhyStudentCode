@@ -639,20 +639,20 @@
 
     <script src="./libs/snap.svg-min.js"></script>
     <script>
-      window.onload = function() {
-        
-        let crocodileSVGEl = Snap('#crocodile-2')
+      window.onload = function () {
+        let crocodileSVGEl = Snap("#crocodile-2");
 
-        let ids = ['eye', 'pie', 'map']
+        let ids = ["eye", "pie", "map"];
 
-        ids.forEach(function(id) {
+        ids.forEach(function (id) {
           // id = eye  pie  map
-          let diagramEl = crocodileSVGEl.select('#diagram-' + id)
-          let iconEl = crocodileSVGEl.select('#hit-' + id)
-          iconEl.hover(function() { // // 鼠标的进入
-            showIcon(diagramEl)
-          })
-        })
+          let diagramEl = crocodileSVGEl.select("#diagram-" + id);
+          let iconEl = crocodileSVGEl.select("#hit-" + id);
+          iconEl.hover(function () {
+            // // 鼠标的进入
+            showIcon(diagramEl);
+          });
+        });
 
         /**
          * 这个是一个动画的函数
@@ -661,21 +661,22 @@
           Snap.animate(
             0.8,
             1,
-            function(value) { // 30 : 0.8 -> 1
+            function (value) {
+              // 30 : 0.8 -> 1
               // console.log(value)
               diagramEl.attr({
-                transform: `scale(${value})`
-              })
+                transform: `scale(${value})`,
+              });
             },
             500,
             mina.bounce,
             // mina.linear,
-            function() {
-              console.log('动画结束')
+            function () {
+              console.log("动画结束");
             }
-          )
+          );
         }
-      }
+      };
     </script>
   </body>
 </html>

@@ -70,19 +70,19 @@
         margin-bottom: -1px;
         animation: moveWaveFront 0.7s linear infinite;
       }
-      @keyframes moveWaveBack{
-        0%{
+      @keyframes moveWaveBack {
+        0% {
           transform: translateX(0);
         }
-        100%{
+        100% {
           transform: translateX(50%);
         }
       }
-      @keyframes moveWaveFront{
-        0%{
+      @keyframes moveWaveFront {
+        0% {
           transform: translateX(0);
         }
-        100%{
+        100% {
           transform: translateX(-50%);
         }
       }
@@ -131,27 +131,25 @@
     </div>
 
     <script>
-      window.onload = function() {
-        var countEL = document.getElementById('count')
-        var waterEl = document.getElementById('water')
+      window.onload = function () {
+        var countEL = document.getElementById("count");
+        var waterEl = document.getElementById("water");
         var currentPercentage = 0;
         var targetPercentage = 70;
 
-        var timeId = null
-        timeId = setInterval(function(){
-          
+        var timeId = null;
+        timeId = setInterval(function () {
           currentPercentage++; // 170
-          if(currentPercentage>= targetPercentage){
-            clearInterval(timeId)
+          if (currentPercentage >= targetPercentage) {
+            clearInterval(timeId);
           }
-          countEL.innerHTML = currentPercentage
+          countEL.innerHTML = currentPercentage;
 
-          if(currentPercentage<=100){
-            waterEl.style.transform = `translateY(${100 - currentPercentage }%)`
+          if (currentPercentage <= 100) {
+            waterEl.style.transform = `translateY(${100 - currentPercentage}%)`;
           }
-        }, 60)
-
-      }
+        }, 60);
+      };
     </script>
   </body>
 </html>
