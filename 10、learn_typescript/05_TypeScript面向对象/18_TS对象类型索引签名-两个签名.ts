@@ -1,7 +1,7 @@
 interface IIndexType {
   // 两个索引类型的写法
-  [index: number]: string
-  [key: string]: any
+  [index: number]: string;
+  [key: string]: any;
 
   // 要求一:下面的写法不允许: 数字类型索引的类型, 必须是字符串类型索引的类型的 子类型
   // 结论: 数字类型必须是比如字符串类型更加确定的类型(需要是字符串类型的子类型)
@@ -22,11 +22,9 @@ interface IIndexType {
   // bbb: boolean 错误的类型
 }
 
-const names: IIndexType = ["abc", "cba", "nba"]
-const item1 = names[0]
-const forEachFn = names["forEach"]
+const names: IIndexType = ["abc", "cba", "nba"];
+const item1 = names[0];
+const forEachFn = names["forEach"];
+names["aaa"];
 
-names["aaa"]
-
-export {}
-
+export {};

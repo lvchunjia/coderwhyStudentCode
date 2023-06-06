@@ -3,10 +3,10 @@
 // 2. Array<string>: 数组类型, 并且数组中存放的是字符串类型
 
 // 注意事项: 在真实的开发中, 数组一般存放相同的类型, 不要存放不同的类型
-let names: string[] = ["abc", "cba", "nba"]
-names.push("aaa")
-// names.push(123)
+let names: string[] = ["abc", "cba", "nba"];
+let nums: Array<number> = [123, 321, 111];
 
-let nums: Array<number> = [123, 321, 111]
+names.push("aaa");
+nums.push(123);
 
-export {}
+export {};

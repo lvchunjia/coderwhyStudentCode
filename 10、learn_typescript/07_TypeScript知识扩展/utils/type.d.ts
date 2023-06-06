@@ -1,7 +1,6 @@
 interface IPerson {
-  name: string
-  age: number
+  name: string;
+  age: number;
 }
 
-type IDType = number | string
-
+type IDType = number | string;

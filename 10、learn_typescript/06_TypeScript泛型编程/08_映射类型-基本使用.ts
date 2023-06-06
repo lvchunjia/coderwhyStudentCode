@@ -4,16 +4,15 @@
 // keyof = "name" | "age"
 type MapPerson<Type> = {
   // 索引类型以此进行使用
-  [aaa in keyof Type]: Type[aaa]
+  [Property in keyof Type]: Type[Property];
 
   // name: string
   // age: number
-}
-
+};
 
 interface IPerson {
-  name: string
-  age: number
+  name: string;
+  age: number;
 }
 
 // 拷贝一份IPerson
@@ -21,8 +20,6 @@ interface IPerson {
 //   name: string
 //   age: number
 // }
-type NewPerson = MapPerson<IPerson>
+type NewPerson = MapPerson<IPerson>;
 
-
-export {}
-
+export {};

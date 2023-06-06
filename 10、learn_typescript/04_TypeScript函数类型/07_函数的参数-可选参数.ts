@@ -2,12 +2,11 @@
 // 可选参数类型是什么? number | undefined 联合类型
 function foo(x: number, y?: number) {
   if (y !== undefined) {
-    console.log(y + 10)
+    console.log(y + 10);
   }
 }
 
-foo(10)
-foo(10, 20)
+foo(10);
+foo(10, 20);
 
-export {}
-
+export {};

@@ -1,28 +1,22 @@
 interface IPerson {
-  name: string
-  age: number
+  name: string;
+  age: number;
 }
 
-
-// 1.奇怪的现象一: 
+// 1.奇怪的现象一:
 // 定义info, 类型是IPerson类型
 const obj = {
   name: "why",
   age: 18,
-
   // 多了一个height属性
-  height: 1.88
-}
-const info: IPerson = obj
-
+  height: 1.88,
+};
+const info: IPerson = obj;
 
 // 2.奇怪的现象二:
-function printPerson(person: IPerson) {
-
-}
-const kobe = { name: "kobe", age: 30, height: 1.98 }
-printPerson(kobe)
-
+function printPerson(person: IPerson) {}
+const kobe = { name: "kobe", age: 30, height: 1.98 };
+printPerson(kobe);
 
 // 解释现象
 // 第一次创建的对象字面量, 称之为fresh(新鲜的)
@@ -30,10 +24,8 @@ printPerson(kobe)
 const obj2 = {
   name: "why",
   age: 18,
+  height: 1.88,
+};
+const p: IPerson = obj2;
 
-  height: 1.88
-}
-
-const p: IPerson = obj2
-
-export {}
+export {};

@@ -4,7 +4,6 @@
 
 class Person {
   constructor(public name: string, public age: number) {}
-
   running() {}
 }
 
@@ -14,15 +13,14 @@ class Dog {
 }
 
 function printPerson(p: Person) {
-  console.log(p.name, p.age)
+  console.log(p.name, p.age);
 }
 
-printPerson(new Person("why", 18))
+printPerson(new Person("why", 18));
 // printPerson("abc")
-printPerson({name: "kobe", age: 30, running: function() {}})
-printPerson(new Dog("旺财", 3))
+printPerson({ name: "kobe", age: 30, running: function () {} });
+printPerson(new Dog("旺财", 3));
 
-const person: Person = new Dog("果汁", 5)
+const person: Person = new Dog("果汁", 5);
 
-
-export {}
+export {};

@@ -1,13 +1,12 @@
-class Person {
-}
+class Person {}
 
 interface ICTORPerson {
-  new (): Person
+  new (): Person;
 }
 
 function factory(fn: ICTORPerson) {
-  const f = new fn()
-  return f
+  const f = new fn();
+  return f;
 }
 
-factory(Person)
+factory(Person);

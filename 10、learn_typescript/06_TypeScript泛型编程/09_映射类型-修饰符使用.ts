@@ -1,19 +1,15 @@
 type MapPerson<Type> = {
-  readonly [Property in keyof Type]?: Type[Property]
-}
+  readonly [Property in keyof Type]?: Type[Property];
+};
 
 interface IPerson {
-  name: string
-  age: number
-  height: number
-  address: string
+  name: string;
+  age: number;
+  height: number;
+  address: string;
 }
 
-type IPersonOptional = MapPerson<IPerson>
+type IPersonOptional = MapPerson<IPerson>;
+const p: IPersonOptional = {};
 
-const p: IPersonOptional = {
-
-}
-
-export {}
-
+export {};

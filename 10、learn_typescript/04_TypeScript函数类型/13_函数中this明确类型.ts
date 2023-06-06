@@ -3,21 +3,18 @@
 // 1.对象中的函数中的this
 const obj = {
   name: "why",
-  studying: function(this: {}) {
+  studying: function (this: {}) {
     // 默认情况下, this是any类型
-    console.log(this, "studying")
-  }
-}
-
-// obj.studying()
-obj.studying.call({})
-
+    console.log(this, "studying");
+  },
+};
+obj.studying();
+obj.studying.call({});
 
 // 2.普通的函数
-function foo(this: { name: string }, info: {name: string}) {
-  console.log(this, info)
+function foo(this: { name: string }, info: { name: string }) {
+  console.log(this, info);
 }
+foo.call({ name: "why" }, { name: "kobe" });
 
-foo.call({ name: "why" }, { name: "kobe" })
-
-export {}
+export {};
