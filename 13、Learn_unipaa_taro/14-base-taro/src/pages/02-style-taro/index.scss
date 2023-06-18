@@ -1,0 +1,15 @@
+.style-taro {
+  // h5: 1rem -> 20px
+  // weapp: 40rpx
+  font-size: 40px;
+}
+
+.text {
+  font-size: 100px;
+  color: red;
+}
+// .no-transform-unit {
+//   // 大写的单位都不会被转换（ 字体 ）
+//   // border: 6Px solid red;
+//   border: 6PX solid red;
+// }

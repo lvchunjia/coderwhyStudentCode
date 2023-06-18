@@ -1,0 +1,36 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.bg-view {
+  height: 200rpx;
+  border: 1px solid red;
+  background-image: url("data:image/png;base64,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");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text {
+  font-size: 50rpx;
+  color: red;
+}

@@ -1,0 +1,6 @@
+/*postcss-pxtransform disable*/
+.no-transform-unit {
+  // 下面就算是小写的单位，都不会进行转换
+  border: 6px solid red;
+  padding: 10px;
+}

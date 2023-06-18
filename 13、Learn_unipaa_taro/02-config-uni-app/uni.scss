@@ -1,0 +1,10 @@
+// 1.定义自定义的全局的样式变量
+@import '@/static/css/base.scss';
+$hy-color: orange;
+
+
+// 2.重写uni-app内置的样式变量
+$uni-color-primary: #007aff;
+
+
+// 3.重写uni-ui内置的样式变量

@@ -1,0 +1,1 @@
+<view class="{{['hy-btn', a]}}" bindtap="{{b}}"><slot></slot></view>

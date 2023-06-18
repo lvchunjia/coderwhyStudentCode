@@ -1,0 +1,10 @@
+/* 需要放到文件最上面 */
+@import '@/uni_modules/uni-scss/variables.scss';
+// 1.重写uni-ui组件库内置的样式变量
+$uni-primary: purple;
+$uni-success: pink;
+
+// 2.重写uni-app框架内置的样式变量
+$uni-color-primary: #007aff;
+
+// 3.自定义的全局变量

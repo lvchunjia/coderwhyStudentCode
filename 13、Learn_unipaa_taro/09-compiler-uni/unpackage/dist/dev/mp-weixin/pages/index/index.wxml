@@ -1,0 +1,1 @@
+<view class="content"><view class="weapp"><view>show weapp</view><image src="{{a}}"/></view><view class="box">我是一个View</view></view>

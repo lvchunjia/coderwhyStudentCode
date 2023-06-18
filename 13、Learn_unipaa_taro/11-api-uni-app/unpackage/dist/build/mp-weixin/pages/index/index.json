@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "hy-button": "../../components/hy-button/hy-button",
+    "hy-button-setup": "../../components/hy-button-setup/hy-button-setup"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "购物街",
+    "navigationBarBackgroundColor": "#ff8198",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

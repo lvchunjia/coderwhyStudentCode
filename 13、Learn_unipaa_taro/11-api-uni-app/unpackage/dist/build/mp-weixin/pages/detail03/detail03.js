@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),a={__name:"detail03",setup(a){function t(){e.index.navigateBack({delta:1}),e.index.$emit("acceptDataFormDetail03",{data:"这里的数据是从detail03传递到home页面"})}return(a,i)=>({a:e.o(t)})}};wx.createPage(a);

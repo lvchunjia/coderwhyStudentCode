@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js");const t=new class{request(t,s,r){return new Promise(((u,n)=>{e.index.request({url:"http://152.136.185.210:7878/api/hy66"+t,method:s||"GET",timeout:6e4,data:r,success(e){u(e.data)},fail(e){n(e)}})}))}get(e,t){return this.request(e,"GET",t)}post(e,t){return this.request(e,"POST",params)}};exports.hyRequest=t;

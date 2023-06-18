@@ -1,0 +1,1 @@
+<view><navigator delta="{{1}}" open-type="navigateBack"><button type="default">返回(组件)</button></navigator><button type="default" bindtap="{{a}}">返回(API)</button></view>

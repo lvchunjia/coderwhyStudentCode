@@ -1,0 +1,1 @@
+<view><view class="">1.页面传递数据(正向)</view><button type="default" bindtap="{{a}}">01-detail01 navigate</button><view class="">2.页面传递数据(逆向)</view><button type="default" bindtap="{{b}}">01-detail02 navigate</button><view class="">3.页面逆向传递数据(全局事件总线)</view><button type="default" bindtap="{{c}}">01-detail03 navigate</button></view>
