@@ -1,0 +1,9 @@
+/* 水平间距 */
+/* 水平间距 */
+.item-bg {
+  background-color: #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+}
+.list-item {
+  margin-top: 24rpx;
+}

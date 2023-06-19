@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "user-info": "./childCpns/user-info",
+    "grid-view": "./childCpns/grid-view",
+    "list-view": "./childCpns/list-view"
+  }
+}

@@ -1,0 +1,24 @@
+/* 水平间距 */
+/* 水平间距 */
+.tab-menu {
+  height: 100%;
+  width: 194rpx;
+  overflow: hidden;
+}
+.tab-menu .tab-menu-scroll {
+  height: 100%;
+}
+.tab-menu .scroll-view-item {
+  height: 90rpx;
+  line-height: 90rpx;
+  width: 100%;
+  background-color: #f6f6f6;
+  text-align: center;
+  font-size: 28rpx;
+}
+.tab-menu .scroll-view-item.active {
+  background-color: white;
+  border-left: 6rpx solid #ff5777;
+  color: #ff5777;
+  font-weight: 700;
+}

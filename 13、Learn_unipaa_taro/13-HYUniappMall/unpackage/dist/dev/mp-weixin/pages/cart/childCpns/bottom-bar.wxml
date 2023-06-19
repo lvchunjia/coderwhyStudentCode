@@ -1,0 +1,1 @@
+<view class="bottom-bar"><label class="select-all"><radio checked="{{a}}" color="#ff8198" bindtap="{{b}}"/><text class="label-name">全选</text></label><text class="total-price">合计: ¥{{c}}</text><text class="buy-product">去计算({{d}})</text></view>

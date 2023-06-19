@@ -1,0 +1,124 @@
+/* 水平间距 */
+/* 水平间距 */
+.banner .banner-item .image[data-v-a3146fa1] {
+  width: 100%;
+}
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+/* 水平间距 */
+.recommend[data-v-4cbe16d3] {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0.625rem;
+}
+.recommend-item[data-v-4cbe16d3] {
+  color: #666;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.recommend-item .image[data-v-4cbe16d3] {
+  width: 4.6875rem;
+  height: 4.6875rem;
+}
+.recommend-item .title[data-v-4cbe16d3] {
+  margin-top: 0.3125rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+.popular .image[data-v-8ed5435f] {
+  width: 100%;
+}
+/* 水平间距 */
+/* 水平间距 */
+.tab-control[data-v-738e0dd7] {
+  margin-top: 0.625rem;
+  padding: 0.3125rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.tab-control .item[data-v-738e0dd7] {
+  flex: 1;
+  text-align: center;
+}
+.tab-control .item .title[data-v-738e0dd7] {
+  display: inline-block;
+  padding: 8px;
+  border-bottom: 3px solid #fff;
+}
+.tab-control .item.active[data-v-738e0dd7] {
+  color: #FF5777;
+}
+.tab-control .item.active .title[data-v-738e0dd7] {
+  border-bottom-color: #FF5777;
+}
+
+.goods-item[data-v-d02aae71] {
+		position: relative;
+	  width: 100%;
+	  text-align: center;
+	  color: #333;
+	  padding-bottom: 2.65625rem;
+		margin-top: 0.3125rem;
+}
+.image[data-v-d02aae71] {
+	  width: 100%;
+	  border-radius: 0.3125rem;
+}
+.desc-info[data-v-d02aae71] {
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  bottom: 0.3125rem;
+}
+.title[data-v-d02aae71] {
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  font-size: 0.875rem;
+}
+.info[data-v-d02aae71] {
+	  font-size: 0.8125rem;
+}
+.info .price[data-v-d02aae71] {
+	  color: #ff5777;
+}
+.info .icon[data-v-d02aae71] {
+	  width: 0.9375rem;
+	  height: 0.9375rem;
+	  padding: 0 0.1875rem 0 0.3125rem;
+	  position: relative;
+	  top: 0.25rem;
+}
+.cfav[data-v-d02aae71] {
+	  /* padding-left: 10rpx; */
+	  position: relative;
+}
+
+/* 水平间距 */
+/* 水平间距 */
+body {
+  overflow: auto;
+}
+.tab-control {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.goods-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+.goods-list .item {
+  width: 48%;
+}

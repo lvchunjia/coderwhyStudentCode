@@ -1,0 +1,94 @@
+<template>
+	<view class='goods-item' @click='itemClick'>
+		<!-- #ifndef H5  -->
+		<image class='image' :src="itemInfo.image || itemInfo.img || itemInfo.show.img"  mode='widthFix'/>
+		<!-- #endif  -->
+		
+		<!-- #ifdef H5 -->
+		<img class='image' v-lazy="itemInfo.image || itemInfo.img || itemInfo.show.img" />
+		<!-- #endif  -->
+		<view class='desc-info'>
+			<view class='title'>{{itemInfo.title}}</view>
+			<view class='info'>
+				<text class='price'>¥{{itemInfo.price}}</text>
+				<image class='icon' src="../../static/images/common/favor.png"/>
+				<text class='cfav'>{{itemInfo.cfav}}</text>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		props: {
+			itemInfo: {
+				type: Object,
+				default: () => {}
+			},
+			abc: {
+				type: String
+			}
+		},
+		emits: ["itemClick"],
+		setup(props, { emit }) {
+			const itemClick = () => {
+				emit('itemClick', props.itemInfo.iid)
+			}
+			
+			return {
+				itemClick
+			}
+		}
+	}
+</script>
+
+<style>
+	.goods-item {
+		position: relative;
+	  width: 100%;
+	  text-align: center;
+	  color: #333;
+	  padding-bottom: 85rpx;
+		margin-top: 10rpx;
+	}
+	
+	.image {
+	  width: 100%;
+	  border-radius: 10rpx;
+	}
+	
+	.desc-info {
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  bottom: 10rpx;
+	}
+	
+	.title {
+	  white-space: nowrap;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  font-size: 28rpx;
+	}
+	
+	.info {
+	  font-size: 26rpx;
+	}
+	
+	.info .price {
+	  color: #ff5777;
+	}
+	
+	.info .icon {
+	  width: 30rpx;
+	  height: 30rpx;
+	  padding: 0 6rpx 0 10rpx;
+	  position: relative;
+	  top: 8rpx;
+	}
+	
+	.cfav {
+	  /* padding-left: 10rpx; */
+	  position: relative;
+	}
+</style>

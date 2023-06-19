@@ -1,0 +1,37 @@
+/* 水平间距 */
+/* 水平间距 */
+page {
+  position: relative;
+}
+.category {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.category .content-scroll {
+  flex: 1;
+  height: 100%;
+  background-color: white;
+  padding: 20rpx 16rpx 40rpx 16rpx;
+  -webkit-overflow-scrolling: touch;
+}
+.category .content-scroll .goods-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 16rpx;
+}
+.category .content-scroll .goods-list .item {
+  width: 48%;
+}
+.hy-item {
+  height: 300rpx;
+  border-bottom: 2rpx solid red;
+}

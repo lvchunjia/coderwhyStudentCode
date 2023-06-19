@@ -1,0 +1,5 @@
+/* 水平间距 */
+/* 水平间距 */
+.banner .banner-item .image {
+  width: 100%;
+}

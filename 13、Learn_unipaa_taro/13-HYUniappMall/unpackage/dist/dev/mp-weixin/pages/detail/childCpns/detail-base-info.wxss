@@ -1,0 +1,59 @@
+/* 水平间距 */
+/* 水平间距 */
+.detail-base-info {
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+  padding: 0 16rpx;
+  color: #999;
+  background-color: white;
+}
+.detail-base-info .info-title {
+  color: #222;
+  text-indent: 20rpx;
+}
+.detail-base-info .info-price {
+  margin-top: 20rpx;
+}
+.detail-base-info .info-price .n-price {
+  font-size: 48rpx;
+  color: #ff8198;
+}
+.detail-base-info .info-price .o-price {
+  font-size: 26rpx;
+  margin-left: 10rpx;
+  text-decoration: line-through;
+}
+.detail-base-info .info-price .discount {
+  font-size: 24rpx;
+  padding: 4rpx 10rpx;
+  color: #fff;
+  background-color: #ff8198;
+  border-radius: 16rpx;
+  margin-left: 10rpx;
+  /*让元素上浮一些: 使用相对定位即可*/
+  position: relative;
+  top: -16rpx;
+}
+.detail-base-info .info-other {
+  margin-top: 30rpx;
+  line-height: 60rpx;
+  display: flex;
+  font-size: 26rpx;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.1);
+  justify-content: space-between;
+}
+.detail-base-info .info-service {
+  display: flex;
+  justify-content: space-between;
+  line-height: 120rpx;
+}
+.detail-base-info .info-service-item .service-icon {
+  width: 28rpx;
+  height: 28rpx;
+  position: relative;
+  top: 4rpx;
+}
+.detail-base-info .info-service-item .service-name {
+  font-size: 26rpx;
+  color: #333;
+}

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "home-swiper": "./childCpns/home-swiper",
+    "home-recommend": "./childCpns/home-recommend",
+    "home-popular": "./childCpns/home-popular",
+    "tab-control": "../../components/tab-control/index",
+    "goods-list-item": "../../components/goods-list-item/index"
+  }
+}

@@ -1,0 +1,11 @@
+/* 水平间距 */
+/* 水平间距 */
+.detail-param-info {
+  background-color: white;
+  padding: 40rpx 30rpx;
+  margin-bottom: 10rpx;
+}
+.detail-param-info .col-key {
+  display: inline-block;
+  width: 180rpx !important;
+}

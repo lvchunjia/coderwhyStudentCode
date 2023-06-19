@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tab-menu": "./childCpns/tab-menu",
+    "tab-content-category": "./childCpns/tab-content-category",
+    "tab-control": "../../components/tab-control/index",
+    "goods-list-item": "../../components/goods-list-item/index"
+  }
+}

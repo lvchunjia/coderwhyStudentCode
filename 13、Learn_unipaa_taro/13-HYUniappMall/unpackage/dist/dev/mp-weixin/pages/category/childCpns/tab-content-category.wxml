@@ -1,0 +1,1 @@
+<view class="tab-content-category"><block wx:for="{{a}}" wx:for-item="item" wx:key="d"><view class="content-item" bindtap="{{item.c}}"><image class="c-img" src="{{item.a}}" lazy-load="{{true}}"></image><text class="title">{{item.b}}</text></view></block></view>

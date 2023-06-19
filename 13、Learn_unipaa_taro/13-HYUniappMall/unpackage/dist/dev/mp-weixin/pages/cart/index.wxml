@@ -1,0 +1,1 @@
+<view class="cart"><scroll-view class="cart-scroll" scroll-y="true"><block wx:for="{{a}}" wx:for-item="item" wx:key="c"><cart-list-item wx:if="{{item.b}}" bindcheckedChange="{{b}}" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"></cart-list-item></block></scroll-view><bottom-bar bindcheckedAllChange="{{c}}" u-i="e26a5942-1" bind:__l="__l"></bottom-bar></view>

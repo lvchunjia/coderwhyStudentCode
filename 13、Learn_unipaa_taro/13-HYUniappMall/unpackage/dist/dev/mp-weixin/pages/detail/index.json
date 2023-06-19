@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "detail-nav-bar": "./childCpns/detail-nav-bar",
+    "detail-swiper": "./childCpns/detail-swiper",
+    "detail-base-info": "./childCpns/detail-base-info",
+    "detail-shop-info": "./childCpns/detail-shop-info",
+    "detail-goods-info": "./childCpns/detail-goods-info",
+    "detail-param-info": "./childCpns/detail-param-info",
+    "detail-comment-info": "./childCpns/detail-comment-info",
+    "detail-recommend-info": "./childCpns/detail-recommend-info",
+    "detail-bottom-bar": "./childCpns/detail-bottom-bar"
+  }
+}

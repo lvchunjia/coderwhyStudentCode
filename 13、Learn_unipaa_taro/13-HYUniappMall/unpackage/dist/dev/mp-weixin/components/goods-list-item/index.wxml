@@ -1,0 +1,1 @@
+<view class="goods-item" bindtap="{{e}}"><image class="image" src="{{a}}" mode="widthFix"/><view class="desc-info"><view class="title">{{b}}</view><view class="info"><text class="price">¥{{c}}</text><image class="icon" src="/static/images/common/favor.png"/><text class="cfav">{{d}}</text></view></view></view>

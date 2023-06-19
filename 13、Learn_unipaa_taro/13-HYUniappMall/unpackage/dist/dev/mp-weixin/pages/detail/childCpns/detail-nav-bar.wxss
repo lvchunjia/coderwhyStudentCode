@@ -1,0 +1,22 @@
+/* 水平间距 */
+/* 水平间距 */
+.detail-nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 88rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.detail-nav-bar .title {
+  flex: 1;
+  text-align: center;
+  line-height: 88rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+.detail-nav-bar .title.active {
+  color: #ff8198;
+  font-weight: 700;
+}

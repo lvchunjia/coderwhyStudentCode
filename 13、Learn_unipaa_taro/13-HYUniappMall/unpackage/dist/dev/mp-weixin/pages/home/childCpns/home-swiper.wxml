@@ -1,0 +1,1 @@
+<swiper class="banner" indicator-dots indicator-active-color="#ff7555" circular><block wx:for="{{a}}" wx:for-item="item" wx:key="b"><swiper-item class="banner-item"><image class="image" src="{{item.a}}" mode="widthFix"></image></swiper-item></block></swiper>

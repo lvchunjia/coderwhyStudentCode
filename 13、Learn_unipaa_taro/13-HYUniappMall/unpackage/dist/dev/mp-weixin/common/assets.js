@@ -1,0 +1,11 @@
+"use strict";
+const messagePNG = "/static/images/profile/message.png";
+const appPNG = "/static/images/profile/app.png";
+const vipPNG = "/static/images/profile/vip.png";
+const cartPNG = "/static/images/profile/cart.png";
+const pointerPNG = "/static/images/profile/pointer.png";
+exports.appPNG = appPNG;
+exports.cartPNG = cartPNG;
+exports.messagePNG = messagePNG;
+exports.pointerPNG = pointerPNG;
+exports.vipPNG = vipPNG;

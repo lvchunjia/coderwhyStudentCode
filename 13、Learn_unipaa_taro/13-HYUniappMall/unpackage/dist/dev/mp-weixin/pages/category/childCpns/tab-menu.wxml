@@ -1,0 +1,1 @@
+<view class="tab-menu"><scroll-view scroll-y="true" class="tab-menu-scroll"><block wx:for="{{a}}" wx:for-item="item" wx:key="d"><view class="{{['scroll-view-item', item.b]}}" bindtap="{{item.c}}">{{item.a}}</view></block></scroll-view></view>

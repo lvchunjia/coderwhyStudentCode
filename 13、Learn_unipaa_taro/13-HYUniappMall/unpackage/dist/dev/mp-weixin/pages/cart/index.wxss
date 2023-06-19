@@ -1,0 +1,8 @@
+/* 水平间距 */
+/* 水平间距 */
+page, .cart {
+  height: 100%;
+}
+.cart-scroll {
+  height: calc(100% - 88rpx);
+}

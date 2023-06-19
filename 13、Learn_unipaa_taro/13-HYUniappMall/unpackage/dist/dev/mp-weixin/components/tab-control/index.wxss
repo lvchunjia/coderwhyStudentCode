@@ -1,0 +1,25 @@
+/* 水平间距 */
+/* 水平间距 */
+.tab-control {
+  margin-top: 20rpx;
+  padding: 10rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.tab-control .item {
+  flex: 1;
+  text-align: center;
+}
+.tab-control .item .title {
+  display: inline-block;
+  padding: 8px;
+  border-bottom: 3px solid #fff;
+}
+.tab-control .item.active {
+  color: #FF5777;
+}
+.tab-control .item.active .title {
+  border-bottom-color: #FF5777;
+}

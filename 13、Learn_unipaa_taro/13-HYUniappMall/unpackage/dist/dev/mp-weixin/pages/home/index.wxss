@@ -1,0 +1,22 @@
+/* 水平间距 */
+/* 水平间距 */
+page {
+  height: auto;
+  overflow: auto;
+}
+.tab-control {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rpx;
+  z-index: 100;
+}
+.goods-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 16rpx;
+}
+.goods-list .item {
+  width: 48%;
+}
