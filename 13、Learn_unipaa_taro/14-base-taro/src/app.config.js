@@ -1,10 +1,10 @@
 export default defineAppConfig({
   pages: [
     "pages/03-service/index",
+    "pages/home/index",
     "pages/02-style-taro/index",
     "pages/01-cpns-taro/index",
 
-    "pages/home/index",
     "pages/index/index",
     "pages/category/index",
     "pages/cart/index",
