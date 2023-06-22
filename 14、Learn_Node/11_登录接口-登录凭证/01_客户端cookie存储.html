@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>客户端的网站</h2>
+
+  <button>设置cookie</button>
+
+  <script>
+    const btnEl = document.querySelector('button')
+    btnEl.onclick = function() {
+      // 在浏览器中通过js设置cookie(在开发中很少使用)
+      // 没有设置max-age时, 是一个内存cookie, 浏览器关闭时会消失
+      // 设置max-age时, 是一个硬盘cookie, 只能等到过期时间到达的时候, 才会销毁
+      document.cookie = "name=why;max-age=30;"
+      document.cookie = "age=18;max-age=60;"
+    }
+  </script>
+</body>
+</html>
