@@ -1,11 +1,10 @@
-const express = require('express')
+const express = require("express");
 
 // 创建app对象
-const app = express()
-
+const app = express();
 
 // 编写中间件
-app.post('/login', (req, res, next) => {
+app.post("/login", (req, res, next) => {
   // 1.res.end方法(比较少)
   // res.end('登录成功, 欢迎回来~')
 
@@ -22,11 +21,11 @@ app.post('/login', (req, res, next) => {
   // })
 
   // 3.res.status方法: 设置http状态码
-  res.status(201)
-  res.json('创建用户成功~')
-})
+  res.status(201);
+  res.json("创建用户成功~");
+});
 
 // 启动服务器
 app.listen(9000, () => {
-  console.log('express服务器启动成功~')
-})
+  console.log("express服务器启动成功~");
+});

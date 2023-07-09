@@ -1,6 +1,5 @@
-const express = require('express')
-
-const app = express()
+const express = require("express");
+const app = express();
 
 // 总结: 当express接收到客户端发送的网络请求时, 在所有中间中开始进行匹配
 // 当匹配到第一个符合要求的中间件时, 那么就会执行这个中间件
@@ -12,17 +11,16 @@ const app = express()
 // login/post
 // abc/patch
 app.use((req, res, next) => {
-  console.log('normal middleware 01')
+  console.log("normal middleware 01");
   // res.end('返回结果了, 不要等了')
-  next()
-})
+  next();
+});
 
 app.use((req, res, next) => {
-  console.log('normal middleware 02')
-})
-
+  console.log("normal middleware 02");
+});
 
 // 开启服务器
 app.listen(9000, () => {
-  console.log('express服务器启动成功~')
-})
+  console.log("express服务器启动成功~");
+});
